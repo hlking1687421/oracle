@@ -1,11 +1,27 @@
-第一个查询语句如下图所示，查询时间用了0.695s
+# 实验1：SQL语句的执行计划分析与优化指导
 
-![image-20210315085907183](C:\Users\Mr.hu\Documents\GitHub\oracle\test1\pic1.png)
+## 软件工程三班 胡世林 201810414309
+## 实验目的
 
-第二个查询语句如下图所示，查询时间用了0.2s
+  分析SQL执行计划，执行SQL语句的优化指导。理解分析SQL语句的执行计划的重要作用。
 
-![image-20210315090047617](C:\Users\Mr.hu\Documents\GitHub\oracle\test1\pic2.png)
+## 实验内容
 
-通过比较，可以看到查询结果是一样的，但是查询效率，第二个要快了两倍左右，
+- 查询1:
+![avatar](/test1/pic1.png)
 
-自定义的查询语句为 14.36
+- 查询2:
+![avatar](/test1/pic2.png)
+
+      通过比较，可以看到查询结果是一样的，但是查询效率，第二个要快了两倍左右.
+
+- 将第二个查询语句进行sql优化
+![avatar](/test1/pic3.png)
+
+- 设计自己的查询语句
+
+查询it职位的薪资随着入职时间的变化
+![avatar](/test1/pic4.png)
+优化分析
+![avatar](/test1/pic5.png)
+
