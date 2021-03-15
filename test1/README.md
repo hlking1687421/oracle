@@ -26,6 +26,7 @@
 查询it职位的薪资随着入职时间的变化
 
 ![avatar](/test1/pic4.png)
+
 优化分析
 
 ![avatar](/test1/pic5.png)
