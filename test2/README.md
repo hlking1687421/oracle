@@ -37,6 +37,8 @@ SQL> exit
 
 ```
 
+![avatar](/test2/pic1.png)
+
 - 新用户hsl连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户：
 ```
 $ sqlplus hsl/123@pdborcl
@@ -82,6 +84,9 @@ SQL> GRANT SELECT ON myview TO hr;
 SQL> exit
 
 ```
+
+![avatar](/test2/pic2.png)
+
 - 第3步：用户hr连接到pdborcl，查询new_user授予它的视图myview
 ```
 [student@deep02 ~]$ sqlplus hr/123@pdborcl
@@ -106,6 +111,7 @@ SQL> exit
 
 ```
 
+![avatar](/test2/pic3.png)
 
 #### 查看数据库的使用情况  
 ```
@@ -138,3 +144,5 @@ USERS                                   5       .375      4.625       92.5
 SYSTEM                                270      8.125    261.875      96.99
 
 ```
+
+![avatar](/test2/pic4.png)
