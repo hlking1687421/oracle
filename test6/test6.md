@@ -53,6 +53,12 @@ END MyPack;
 ![avatar](/test6/pic13.png)
 共两万条数据
 ![avatar](/test6/pic14.png)
+#### 4.数据展示
+![avatar](/test6/pic17.png)
+![avatar](/test6/pic18.png)
+![avatar](/test6/pic10.png)
+![avatar](/test6/pic12.png)
+![avatar](/test6/pic14.png)
 #### 5.创建角色和权限分配
 ```
 create user test1 identified by test;
